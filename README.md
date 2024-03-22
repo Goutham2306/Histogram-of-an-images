@@ -30,7 +30,7 @@ The Histogram of gray scale image and color image is shown.
 # Register Number:
 ```
 ## Gray Image and Color Image
-```
+```python
 import cv2
 gray_img = cv2.imread('B&W.jpg')
 gray_img = cv2.resize(gray_img,(300,200))
@@ -54,7 +54,7 @@ cv2.waitKey(0)
 
 ## Histogram of Grayscale Image
 
-```
+``` python
 import cv2
 import matplotlib.pyplot as plt
 gray_img = cv2.imread('B&W.jpg')
@@ -82,7 +82,7 @@ plt.show()
 ## Output:
 ![Screenshot 2024-03-22 111555](https://github.com/Goutham2306/Histogram-of-an-images/assets/138971154/b54863d4-bada-4114-a7de-0e19ba739879)
 ## Histogram of Color Image
-```
+``` python
 import cv2
 import matplotlib.pyplot as plt
 gray_img = cv2.imread('B&W.jpg')
@@ -103,7 +103,8 @@ plt.show()
 ![image](https://github.com/Goutham2306/Histogram-of-an-images/assets/138971154/d4c61171-763f-420f-a8e3-bd167a213015)
 
 ## Histogram Equilization of GrayScale Image
-```import cv2
+``` python
+import cv2
 gray_img = cv2.imread('B&W.jpg',0)
 gray_img = cv2.resize(gray_img,(300,200))
 cv2.imshow('Grey Scale Image',gray_img)
