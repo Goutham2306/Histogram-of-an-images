@@ -103,8 +103,16 @@ plt.show()
 ![image](https://github.com/Goutham2306/Histogram-of-an-images/assets/138971154/d4c61171-763f-420f-a8e3-bd167a213015)
 
 ## Histogram Equilization of GrayScale Image
+```import cv2
+gray_img = cv2.imread('B&W.jpg',0)
+gray_img = cv2.resize(gray_img,(300,200))
+cv2.imshow('Grey Scale Image',gray_img)
+equ = cv2.equalizeHist(gray_img)
+cv2.imshow("Equalized Image",equ)
+cv2.waitKey(0)
+```
 
-
+## OUTPUT
 ![image](https://github.com/Goutham2306/Histogram-of-an-images/assets/138971154/c0adb7b1-6ec9-43ae-a5a7-833c4a863658)       ![image](https://github.com/Goutham2306/Histogram-of-an-images/assets/138971154/2b207e69-5e92-4a89-942b-8b6f435c0e98)
 
 ## RESULT
